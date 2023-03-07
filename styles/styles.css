@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto&display=swap%27');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: #1cd1b0;
+  padding: 7px;
+  padding-left: 40px;
+  font-size: 15px;
+}
+h1 {
+  padding: 20px;
+  background-color: #00669f;
+  font-size: 40px;
+  position: sticky;
+  top: 0px;
+  padding-left: 30px;
+}
+
+div {
+  display: inline-block;
+  margin-top: 300px;
+  margin-left: 150px;
+  width: 300px;
+  height: 550px;
+  position: relative;
+  border-radius: 20px 20px 0 0;
+  background-color: #F3F3F3;
+  box-shadow: 0 1px 2px 1px lightgray;
+}
+.margen-div {
+  margin-left: 170px;
+}
+img {
+  position: absolute;
+  left: 90px;
+  top: 135px;
+  border-radius: 50%;
+}
+.caja-batman {
+    background-image:url(../img/batman-fondo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.caja-harley {
+    background-image:url(../img/harley-fondo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+p {
+    position: absolute;
+    font-size: 15px;
+    top: 320px;
+    left: 10px;
+    width: 280px;
+    padding: 10px;
+    line-height: 20px;
+ }
+ .h2-b {
+    font-size: 30px;
+    position: absolute;
+    top: 280px;
+    left: 95px;
+ }
+ .h2-h {
+    font-size: 30px;
+    position: absolute;
+    top: 280px;
+    left: 70px;
+ }
+ .ver-mas {
+    position: absolute;
+    text-align: center;
+    background-color: #00669F;
+    color: white;
+    width: 100px;
+    height: 40px;
+    padding: 10px 0px 10px;
+    border-radius: 0;
+    bottom: 10px;
+    left: -45px;
+ }
+ footer {
+    margin-top: 100px;
+ color: white;
+ background-color: #00669F;
+ padding: 10px;
+}
+.corazon{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
